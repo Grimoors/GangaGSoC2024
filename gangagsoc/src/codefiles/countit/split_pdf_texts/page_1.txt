@@ -1,0 +1,127 @@
+Large Hadron Collider - Wikipedia
+
+https://en.wikipedia.org/wiki/Large_Hadron_Collider
+
+Large Hadron Collider
+
+The Large Hadron Collider (LHC) is the world's largest and
+highest-energy   particle   collider   and   the   largest   machine   in   the
+world.[1][2] It was built by the European Organization for Nuclear
+Research (CERN) between 1998 and 2008 in collaboration with
+over   10,000   scientists   and   hundreds   of   universities   and
+laboratories, as well as more than 100 countries.[3]  It  lies  in  a
+tunnel 27 kilometres (17 mi) in circumference and as deep as 175
+metres   (574   ft)   beneath   the   France–Switzerland   border   near
+Geneva.
+
+The   ﬁrst   collisions   were   achieved   in   2010   at   an   energy   of
+3.5   teraelectronvolts   (TeV)   per   beam,   about   four   times   the
+previous world record.[4][5] After upgrades it reached 6.5 TeV per
+beam (13 TeV total collision energy, the present world record).
+[6][7][8][9]   At   the   end   of   2018,   it   entered   a   two-year   shutdown
+period for further upgrades.
+
+The collider has four crossing points, around which are positioned
+seven detectors, each designed for certain kinds of research. The
+LHC primarily collides proton beams, but it can also use beams
+of heavy ions: lead–lead collisions and proton–lead collisions are
+typically   done   for   one   month   per   year.   The   aim   of   the   LHC's
+detectors is to allow physicists to test the predictions of diﬀerent
+theories of particle physics, including measuring the properties of
+the  Higgs  boson[10]   and   searching   for   the   large   family   of   new
+particles   predicted   by   supersymmetric   theories,[11]   as   well   as
+other unsolved questions of physics.
+
+Contents
+
+Background
+
+Purpose
+
+Design
+
+Detectors
+Computing and analysis facilities
+
+Operational history
+Construction
+
+Operational challenges
+Cost
+Construction accidents and delays
+Initial lower magnet currents
+
+Inaugural tests (2008)
+
+Coordinates: 46°14′N 06°03′E
+
+Large Hadron Collider
+(LHC)
+
+ATLAS
+
+CMS
+
+LHCb
+
+ALICE
+
+TOTEM
+
+LHC experiments
+
+A Toroidal LHC
+Apparatus
+
+Compact Muon
+Solenoid
+
+LHC-beauty
+
+A Large Ion
+Collider
+Experiment
+
+Total Cross
+Section, Elastic
+Scattering and
+Diﬀraction
+Dissociation
+
+LHCf
+
+LHC-forward
+
+MoEDAL
+
+FASER
+
+Monopole and
+Exotics Detector At
+the LHC
+
+ForwArd Search
+ExpeRiment
+
+LHC preaccelerators
+
+p and Pb
+
+Linear accelerators
+for protons (Linac
+4) and lead (Linac
+3)
+
+(not marked) Proton Synchrotron
+
+Booster
+
+PS
+
+Proton Synchrotron
+
+1 of 29
+
+3/3/21, 19:57
+
+

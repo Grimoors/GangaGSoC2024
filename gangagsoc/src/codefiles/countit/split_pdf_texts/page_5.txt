@@ -1,0 +1,79 @@
+Large Hadron Collider - Wikipedia
+
+https://en.wikipedia.org/wiki/Large_Hadron_Collider
+
+electrons are stripped of the hydrogen ions leaving only the nucleus
+containing one proton. Protons are then accelerated to 2 GeV and
+injected into the Proton Synchrotron (PS), where they are accelerated
+to 26 GeV. Finally, the Super Proton Synchrotron (SPS) is used to
+increase   their   energy   further   to   450   GeV   before   they   are   at   last
+injected (over a period of several minutes) into the main ring. Here,
+the proton bunches are accumulated, accelerated (over a period of
+20   minutes)   to   their   peak   energy,   and   ﬁnally   circulated   for   5   to
+24 hours while collisions occur at the four intersection points.[41]
+
+The LHC protons originate from
+the small red hydrogen tank.
+
+The   LHC   physics   programme   is   mainly   based   on   proton–proton
+collisions. However, shorter running periods, typically one month per
+year,   heavy-ion   collisions   are   included   in   the   programme.   While
+lighter ions are considered as well, the baseline scheme deals with lead ions[42] (see A Large Ion Collider
+Experiment). The lead ions are ﬁrst accelerated by the linear accelerator LINAC 3, and the Low Energy Ion
+Ring (LEIR) is used as an ion storage and cooler unit. The ions are then further accelerated by the PS and
+SPS before being injected into LHC ring, where they reach an energy of 2.3 TeV per nucleon (or 522 TeV per
+ion),[43] higher than the energies reached by the Relativistic Heavy Ion Collider. The aim of the heavy-ion
+programme is to investigate quark–gluon plasma, which existed in the early universe.[44]
+
+Detectors
+
+Seven detectors have been constructed at the LHC, located underground in large caverns excavated at the
+LHC's intersection points. Two of them, the ATLAS experiment and the Compact Muon Solenoid (CMS),
+are large general-purpose particle detectors.[2] ALICE and LHCb have more speciﬁc roles and the last three,
+TOTEM, MoEDAL and LHCf, are very much smaller and are for very specialized research. The ATLAS and
+CMS experiments discovered the Higgs boson, which is strong evidence that the Standard Model has the
+correct mechanism of giving mass to elementary particles.[45]
+
+The BBC's summary of the main detectors is:[46]
+
+Detector
+
+Description
+
+ATLAS
+
+CMS
+
+ALICE
+
+LHCb
+
+One of two general-purpose detectors. ATLAS studies the
+Higgs boson and looks for signs of new physics, including
+the origins of mass and extra dimensions.
+
+The other general-purpose detector, like ATLAS, studies
+the Higgs boson and look for clues of new physics.
+
+ALICE is studying a "ﬂuid" form of matter called quark–
+gluon plasma that existed shortly after the Big Bang.
+
+LHCb investigates what happened to the "missing"
+antimatter from when equal amounts of matter and
+antimatter were created in the Big Bang.
+
+CMS detector for LHC
+
+Computing and analysis facilities
+
+Data produced by LHC, as well as LHC-related simulation, were estimated at approximately 15 petabytes per
+year (max throughput while running is not stated)[47]—a major challenge in its own right at the time.
+
+The LHC Computing Grid[48] was constructed as part of the LHC design, to handle the massive amounts of
+data   expected   for   its   collisions.   It   is   an   international   collaborative   project   that   consists   of   a   grid-based
+
+5 of 29
+
+3/3/21, 19:57
+
+

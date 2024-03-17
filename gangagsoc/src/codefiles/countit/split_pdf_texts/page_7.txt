@@ -1,0 +1,61 @@
+Large Hadron Collider - Wikipedia
+
+https://en.wikipedia.org/wiki/Large_Hadron_Collider
+
+With a budget of €7.5 billion (approx. $9bn or £6.19bn as of June 2010), the LHC is one of the most
+expensive scientiﬁc instruments[1] ever built.[68] The total cost of the project is expected to be of the order of
+4.6bn Swiss francs (SFr) (approx. $4.4bn, €3.1bn, or £2.8bn as of January 2010) for the accelerator and
+1.16bn (SFr) (approx. $1.1bn, €0.8bn, or £0.7bn as of January 2010) for the CERN contribution to the
+experiments.[69]
+
+The construction of LHC was approved in 1995 with a budget of SFr 2.6bn, with another SFr 210M toward
+the experiments. However, cost overruns, estimated in a major review in 2001 at around SFr 480M for the
+accelerator,   and   SFr   50M   for   the   experiments,   along   with   a   reduction   in   CERN's   budget,   pushed   the
+completion date from 2005 to April 2007.[70] The superconducting magnets were responsible for SFr 180M
+of the cost increase. There were also further costs and delays owing to engineering diﬃculties encountered
+while building the cavern for the Compact Muon Solenoid,[71] and also due to magnet supports which were
+insuﬃciently strongly designed and failed their initial testing (2007) and damage from a magnet quench and
+liquid   helium   escape   (inaugural   testing,   2008)   (see:   Construction   accidents   and   delays).[72]   Because
+electricity costs are lower during the summer, the LHC normally does not operate over the winter months,[73]
+although exceptions over the 2009/10 and 2012/2013 winters were made to make up for the 2008 start-up
+delays and to improve precision of measurements of the new particle discovered in 2012, respectively.
+
+Construction accidents and delays
+
+On 25 October 2005, José Pereira Lages, a technician, was killed in the LHC when a
+switchgear that was being transported fell on top of him.[74]
+On 27 March 2007, a cryogenic magnet support designed and provided by Fermilab
+and KEK broke during an initial pressure test involving one of the LHC's inner triplet
+(focusing quadrupole) magnet assemblies. No one was injured. Fermilab director
+Pier Oddone stated "In this case we are dumbfounded that we missed some very
+simple balance of forces". The fault had been present in the original design, and
+remained during four engineering reviews over the following years.[75] Analysis
+revealed that its design, made as thin as possible for better insulation, was not
+strong enough to withstand the forces generated during pressure testing. Details
+are available in a statement from Fermilab, with which CERN is in agreement.
+[76][77] Repairing the broken magnet and reinforcing the eight identical assemblies
+used by LHC delayed the start-up date, then planned for November 2007.
+On 19 September 2008, during initial testing, a faulty electrical connection led to a
+magnet quench (the sudden loss of a superconducting magnet's superconducting
+ability owing to warming or electric ﬁeld eﬀects). Six tonnes of supercooled liquid
+helium—used to cool the magnets—escaped, with suﬃcient force to break 10-ton
+magnets nearby from their mountings, and caused considerable damage and
+contamination of the vacuum tube (see 2008 quench incident); repairs and safety
+checks caused a delay of around 14 months.[78][79][80]
+Two vacuum leaks were found in July 2009, and the start of operations was further
+postponed to mid-November 2009.[81]
+
+Initial lower magnet currents
+
+In   both   of   its   runs   (2010   to   2012   and   2015),   the   LHC   was   initially   run   at   energies   below   its   planned
+operating energy, and ramped up to just 2 x 4 TeV energy on its ﬁrst run and 2 x 6.5 TeV on its second run,
+below the design energy of 2 x 7 TeV. This is because massive superconducting magnets require considerable
+magnet training to handle the high currents involved without losing their superconducting ability, and the
+high currents are necessary to allow a high proton energy. The "training" process involves repeatedly running
+the magnets with lower currents to provoke any quenches or minute movements that may result. It also takes
+
+7 of 29
+
+3/3/21, 19:57
+
+
