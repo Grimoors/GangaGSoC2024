@@ -14,7 +14,9 @@ setup(
           'ganga',
           "pdfminer.six",
           "PyPDF2",
-          "shutils"
+          "shutils",
+          "openai",
+          "requests"
       ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',

@@ -468,4 +468,18 @@ The unit test was successful, confirming that the `custom_merger.py` script corr
 
 [![Unit Test 3 - custom_merger.py](test/test_custom_mergerpy_filedirectory/test_file_UML_activity.svg)](https://www.plantuml.com/plantuml/uml/RL5BQiCm4Dtx5BDqDZr0Go0bdsuA3KakCDZFZK2Mn6ZKn9JUlP95mPHkHcBcVVH6swWicaRRp9Uc2RaQDTxH1Pe2VJL4ppi1A-YACNXXcMXl19rwcTPb_0e7AO0BZy62TZuvfQEnYEi5lJJepKIbkz4R1TPRddylFQ-8MYtt68m3lISDIIlrb0cptk61BXMxJanGQaV81vx2jAh2Gm7RuiEk9ryLmY_v3EwNigLf1cfVEariIRtckjdGuH7GAVhQMP7UuAXLILXbHXQQtthY66jAs0Xg1yx74d1aO-lSzMRucvQbztTN4vyn-iz_bppdO6ldP7LbKNrejbcpVDqF)
 
-### Integration Test 1 - orchestrator2.py 
+
+# Task 3 - Create a Ganga job that demonstrates LLM querying
+
+
+To interface with GPT-4 Turbo via the OpenAI API and automate the process of generating code to approximate Pi using a Monte Carlo simulation split into subjobs in Ganga, we'll follow these steps:
+
+1. **Setting up the environment** to securely communicate with the OpenAI API, leveraging GitHub Secrets for API key management.
+2. **Crafting and sending the request** to GPT-4 Turbo to generate the required Python code for the Ganga job.
+3. **Writing a unit test** to verify that the code can be executed within Ganga, focusing on the attempt to execute rather than the accuracy or efficiency of the code itself.
+
+### 3.1. Setting up the Environment
+
+- API key is securely stored in GitHub Secrets under the name `OPENAI_API_KEY`. This key will be used in the code to authenticate requests.
+
+- Installing `openai` and `requests` in `setup.py` 
