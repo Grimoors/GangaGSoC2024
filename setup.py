@@ -12,6 +12,10 @@ setup(
     install_requires=[
           'pytest',
           'ganga',
+          'pickle',
+          "pdfminer",
+          "PyPDF2",
+          "shutil"
       ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
