@@ -35,7 +35,8 @@ def generate_ganga_pi_calculation_code(api_key):
 
 class TestGangaPiCalculation(unittest.TestCase):
     def test_pi_calculation_code_generation_and_execution(self):
-        api_key = os.getenv("OPENAI_API_KEY")
+        # api_key = os.getenv("OPENAI_API_KEY")
+        api_key = "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"
         generated_code = generate_ganga_pi_calculation_code(api_key)
         self.assertIsNotNone(generated_code, "Failed to generate code.")
         
