@@ -12,8 +12,7 @@ setup(
     install_requires=[
           'pytest',
           'ganga',
-          'pickle',
-          "pdfminer",
+          "pdfminer.six",
           "PyPDF2",
           "shutil"
       ],
