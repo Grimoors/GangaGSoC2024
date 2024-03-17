@@ -20,8 +20,8 @@ class TestSplitPdfPages(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         # Setup variables
-        cls.pdf_path = './test_read_and_split_pdfpy_filedirectory/input/test.pdf'  # Path to the test PDF
-        cls.output_folder = './test_read_and_split_pdfpy_filedirectory/output'
+        cls.pdf_path = 'test/test_read_and_split_pdfpy_filedirectory/input/test.pdf'  # Path to the test PDF
+        cls.output_folder = 'test/test_read_and_split_pdfpy_filedirectory/output'
         cls.debug_mode = False
         
         # Ensure the output directory is clean
