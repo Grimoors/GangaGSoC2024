@@ -1,0 +1,38 @@
+Large Hadron Collider - Wikipedia
+
+https://en.wikipedia.org/wiki/Large_Hadron_Collider
+
+the   bending   magnets   were   upgraded   to   safely   handle   the   current   required   for   7   TeV   per   beam   (14
+TeV).[6][102] However, the bending magnets were only trained to handle up to 6.5 TeV per beam (13 TeV
+total), which became the operating energy for 2015 to 2017.[82] The energy was ﬁrst reached on 10 April
+2015.[103] The upgrades culminated in colliding protons together with a combined energy of 13 TeV.[104] On
+3 June 2015, the LHC started delivering physics data after almost two years oﬄine.[105] In the following
+months, it was used for proton-proton collisions, while in November, the machine switched to collisions of
+lead ions and in December, the usual winter shutdown started.
+
+In 2016, the machine operators focused on increasing the luminosity for proton-proton collisions. The design
+value was ﬁrst reached 29 June,[39] and further improvements increased the collision rate to 40% above the
+design value.[106] The total number of collisions in 2016 exceeded the number from Run 1 – at a higher
+energy per collision. The proton-proton run was followed by four weeks of proton-lead collisions.[107]
+
+In 2017, the luminosity was increased further and reached twice the design value. The total number of
+collisions was higher than in 2016 as well.[40]
+
+The 2018 physics run began on 17 April and stopped on 3 December, including four weeks of lead–lead
+collisions.[108]
+
+Long Shutdown 2 (2018–2021) and beyond
+
+Long Shutdown 2 (LS2) started 10 December 2018. The LHC and the whole CERN accelerator complex is
+being   maintained   and   upgraded.   The   goal   of   the   upgrades   is   to   implement   the  High   Luminosity   Large
+Hadron Collider (HL-LHC) project that will increase the luminosity by a factor of 10. LS2 is projected to
+end in 2021, followed by Run 3.[109] The HL-LHC should be operational by 2026. The Long Shutdown
+(LS3) in 2020s will take place before HL-LHC project is done.
+
+Timeline of operations
+
+10 of 29
+
+3/3/21, 19:57
+
+

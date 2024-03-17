@@ -1,0 +1,60 @@
+Large Hadron Collider - Wikipedia
+
+https://en.wikipedia.org/wiki/Large_Hadron_Collider
+
+computer network infrastructure initially connecting 140 computing centres in 35 countries (over 170 in 36
+countries as of 2012). It was designed by CERN to handle the signiﬁcant volume of data produced by LHC
+experiments,[49][50] incorporating both private ﬁbre optic cable links and existing high-speed portions of the
+public Internet to enable data transfer from CERN to academic institutions around the world.[51] The Open
+Science Grid is used as the primary infrastructure in the United States, and also as part of an interoperable
+federation with the LHC Computing Grid.
+
+The distributed computing project LHC@home was started to support the construction and calibration of the
+LHC. The project uses the BOINC platform, enabling anybody with an Internet connection and a computer
+running Mac OS X, Windows or Linux to use their computer's idle time to simulate how particles will travel
+in the beam pipes. With this information, the scientists are able to determine how the magnets should be
+calibrated to gain the most stable "orbit" of the beams in the ring.[52] In August 2011, a second application
+(Test4Theory) went live which performs simulations against which to compare actual test data, to determine
+conﬁdence levels of the results.
+
+By 2012, data from over 6 quadrillion (6 x 1015) LHC proton-proton collisions had been analysed,[53] LHC
+collision data was being produced at approximately 25 petabytes per year, and the LHC Computing Grid had
+become the world's largest computing grid in 2012, comprising over 170 computing facilities in a worldwide
+network across 36 countries.[54][55][56]
+
+Operational history
+
+The LHC ﬁrst went live on 10 September 2008,[57] but initial testing was delayed for 14 months from 19
+September 2008 to 20 November 2009, following a magnet quench incident that caused extensive damage to
+over 50 superconducting magnets, their mountings, and the vacuum pipe.[58][59][60][61][62]
+
+During its ﬁrst run (2010–2013), the LHC collided two opposing particle beams of either protons at up to
+4   teraelectronvolts (4   TeV   or   0.64   microjoules),   or   lead nuclei   (574   TeV  per   nucleus,   or   2.76   TeV   per
+nucleon).[63][64] Its ﬁrst run discoveries included the long-sought Higgs boson, several composite particles
+(hadrons)   like   the   χb   (3P)   bottomonium   state,   the   ﬁrst   creation   of   a   quark–gluon   plasma,   and   the   ﬁrst
+0 → μ+μ−), which challenged the
+observations of the very rare decay of the Bs meson into two muons (Bs
+validity of existing models of supersymmetry.[65]
+
+Construction
+
+Operational challenges
+
+The size of the LHC constitutes an exceptional engineering challenge with unique operational issues on
+account of the amount of energy stored in the magnets and the beams.[41][66] While operating, the total
+energy stored in the magnets is 10 GJ (2,400 kilograms of TNT) and the total energy carried by the two
+beams reaches 724 MJ (173 kilograms of TNT).[67]
+
+Loss of only one ten-millionth part (10−7) of the beam is suﬃcient to quench a superconducting magnet,
+while each of the two beam dumps must absorb 362 MJ (87 kilograms of TNT). These energies are carried
+by very little matter: under nominal operating conditions (2,808 bunches per beam, 1.15×1011 protons per
+bunch), the beam pipes contain 1.0×10−9 gram of hydrogen, which, in standard conditions for temperature
+and pressure, would ﬁll the volume of one grain of ﬁne sand.
+
+Cost
+
+6 of 29
+
+3/3/21, 19:57
+
+

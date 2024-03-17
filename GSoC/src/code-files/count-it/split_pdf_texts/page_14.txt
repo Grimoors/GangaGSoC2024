@@ -1,0 +1,73 @@
+Large Hadron Collider - Wikipedia
+
+https://en.wikipedia.org/wiki/Large_Hadron_Collider
+
+further analysis.[140] On 14 March 2013, CERN announced conﬁrmation that the observed particle was
+indeed the predicted Higgs Boson.[141]
+
+On 8 November 2012, the LHCb team reported on an experiment seen as a "golden" test of supersymmetry
+theories in physics,[120] by measuring the very rare decay of the 
+).
+The   results,   which   match   those   predicted   by   the   non-supersymmetrical   Standard   Model   rather   than   the
+predictions of many branches of supersymmetry, show the decays are less common than some forms of
+supersymmetry predict, though could still match the predictions of other versions of supersymmetry theory.
+The results as initially drafted are stated to be short of proof but at a relatively high 3.5 sigma   level   of
+signiﬁcance.[142] The result was later conﬁrmed by the CMS collaboration.[143]
+
+meson into two muons (
+
+In August 2013, the LHCb team revealed an anomaly in the angular distribution of B meson decay products
+which could not be predicted by the Standard Model; this anomaly had a statistical certainty of 4.5 sigma,
+just short of the 5 sigma needed to be oﬃcially recognized as a discovery. It is unknown what the cause of
+this anomaly would be, although the Z' boson has been suggested as a possible candidate.[144]
+
+On   19   November   2014,   the   LHCb   experiment   announced   the   discovery   of   two   new   heavy   subatomic
+particles, Ξ′−
+strange quark. They are excited states of the bottom Xi baryon.[145][146]
+
+. Both of them are baryons that are composed of one bottom, one down, and one
+
+b  and Ξ∗−
+
+b
+
+The LHCb collaboration has observed multiple exotic hadrons, possibly pentaquarks or tetraquarks, in the
+Run 1 data. On 4 April 2014, the collaboration conﬁrmed the existence of the tetraquark candidate Z(4430)
+with a signiﬁcance of over 13.9 sigma.[147][148] On 13 July 2015, results consistent with pentaquark states in
+0
+b) were reported.[149][150][151]
+
+the decay of bottom Lambda baryons (Λ
+
+On 28 June 2016, the collaboration announced four tetraquark-like particles decaying into a J/ψ and a φ
+meson,   only   one   of   which   was   well   established   before   (X(4274),   X(4500)   and   X(4700)   and   X(4140)).
+[152][153]
+
+In December 2016, ATLAS presented a measurement of the W boson mass, researching the precision of
+analyses done at the Tevatron.[154]
+
+Second run (2015-2018)
+
+At the conference EPS-HEP 2015 in July, the collaborations presented ﬁrst cross-section measurements of
+several particles at the higher collision energy.
+
+On 15 December 2015, the ATLAS and CMS experiments both reported a number of preliminary results for
+Higgs physics, supersymmetry (SUSY) searches and exotics searches using 13 TeV proton collision data.
+Both   experiments   saw   a   moderate   excess   around   750   GeV   in   the   two-photon   invariant   mass   spectrum,
+[155][156][157] but the experiments did not conﬁrm the existence of the hypothetical particle in an August
+2016 report.[158][159][160]
+
+In July 2017, many analyses based on the large dataset collected in 2016 were shown. The properties of the
+Higgs boson were studied in more detail and the precision of many other results was improved.[161]
+
+Planned "high-luminosity" upgrade
+
+After some years of running, any particle physics experiment typically begins to suﬀer from diminishing
+returns: as the key results reachable by the device begin to be completed, later years of operation discover
+proportionately less than earlier years. A common response is to upgrade the devices involved, typically in
+
+14 of 29
+
+3/3/21, 19:57
+
+

@@ -1,0 +1,77 @@
+Large Hadron Collider - Wikipedia
+
+https://en.wikipedia.org/wiki/Large_Hadron_Collider
+
+The   3.8-metre   (12   ft)   wide   concrete-lined   tunnel,   constructed
+between   1983   and   1988,   was   formerly   used   to   house   the   Large
+Electron–Positron   Collider.[30]   The   tunnel   crosses   the   border
+between Switzerland and France at four points, with most of it in
+France.   Surface   buildings   hold   ancillary   equipment   such   as
+compressors,   ventilation   equipment,   control   electronics   and
+refrigeration plants.
+
+adjacent
+
+Map of the Large Hadron
+Collider at CERN
+
+The   collider   tunnel   contains
+  parallel
+two  
+beamlines   (or   beam   pipes)
+each   containing   a   beam,
+which   travel   in   opposite
+directions   around   the   ring.
+The   beams   intersect   at   four
+points around the ring, which
+is   where   the   particle   collisions   take   place.   Some   1,232   dipole
+magnets keep the beams on their circular path (see image[31]), while
+an additional 392 quadrupole magnets are used to keep the beams
+focused, with stronger quadrupole magnets close to the intersection
+points in order to maximize the chances of interaction where the two
+beams cross. Magnets of higher multipole orders are used to correct
+smaller imperfections in the ﬁeld geometry. In total, about 10,000
+superconducting   magnets   are   installed,   with   the   dipole   magnets
+having   a   mass   of   over   27   tonnes.[32]   Approximately   96   tonnes   of
+superﬂuid helium-4 is needed to keep the magnets, made of copper-
+clad niobium-titanium, at their operating temperature of 1.9 K (−271.25 °C), making the LHC the largest
+cryogenic   facility   in   the   world   at   liquid   helium   temperature.   LHC   uses   470   tonnes   of   Nb–Ti
+superconductor.[33]
+
+Superconducting quadrupole
+electromagnets are used to
+direct the beams to four
+intersection points, where
+interactions between
+accelerated protons will take
+place.
+
+During   LHC   operations,   the   CERN   site   draws   roughly   200   MW   of   electrical   power   from   the   French
+electrical grid, which, for comparison, is about one-third the energy consumption of the city of Geneva; the
+LHC accelerator and detectors draw about 120 MW thereof.[34] Each day of its operation generates 140
+terabytes of data.[35]
+
+When running at the current energy record of 6.5 TeV per proton,[36] once or twice a day, as the protons are
+accelerated from 450 GeV to 6.5 TeV, the ﬁeld of the superconducting dipole magnets is increased from 0.54
+to 7.7 teslas (T). The protons each have an energy of 6.5 TeV, giving a total collision energy of 13 TeV. At
+this energy, the protons have a Lorentz factor of about 6,930 and move at about 0.999 999 990 c, or about
+3.1 m/s (11 km/h) slower than the speed of light (c). It takes less than 90 microseconds (μs) for a proton to
+travel 26.7 km around the main ring. This results in 11,245 revolutions per second for protons whether the
+particles are at low or high energy in the main ring, since the speed diﬀerence between these energies is
+beyond the ﬁfth decimal.[37]
+
+Rather than having continuous beams, the protons are bunched together, into up to 2,808 bunches, with
+115 billion protons in each bunch so that interactions between the two beams take place at discrete intervals,
+mainly 25 nanoseconds (ns) apart, providing a bunch collision rate of 40 MHz. It was operated with fewer
+bunches in the ﬁrst years. The design luminosity of the LHC is 1034 cm−2s−1,[38] which was ﬁrst reached in
+June 2016.[39] By 2017, twice this value was achieved.[40]
+
+Before   being   injected   into   the   main   accelerator,   the   particles   are   prepared   by   a   series   of   systems   that
+successively increase their energy. The ﬁrst system is the linear particle accelerator LINAC 4 generating 160-
+MeV negative hydrogen ions (H− ions), which feeds the Proton Synchrotron Booster (PSB). There, both
+
+4 of 29
+
+3/3/21, 19:57
+
+

@@ -1,0 +1,69 @@
+Large Hadron Collider - Wikipedia
+
+https://en.wikipedia.org/wiki/Large_Hadron_Collider
+
+An initial focus of research was to investigate the possible existence of the Higgs boson, a key part of the
+Standard Model of physics which is predicted by theory, but had not yet been observed before due to its high
+mass and elusive nature. CERN scientists estimated that, if the Standard Model were correct, the LHC would
+produce several Higgs bosons every minute, allowing physicists to ﬁnally conﬁrm or disprove the Higgs
+boson's   existence.   In   addition,   the   LHC   allowed   the   search   for   supersymmetric   particles   and   other
+hypothetical particles as possible unknown areas of physics.[63] Some extensions of the Standard Model
+predict additional particles, such as the heavy W' and Z' gauge bosons, which are also estimated to be within
+reach of the LHC to discover.[125]
+
+First run (data taken 2009–2013)
+
+The ﬁrst physics results from the LHC, involving 284 collisions which took place in the ALICE detector,
+were reported on 15 December 2009.[111] The results of the ﬁrst proton–proton collisions at energies higher
+than Fermilab's Tevatron proton–antiproton collisions were published by the CMS   collaboration   in   early
+February 2010, yielding greater-than-predicted charged-hadron production.[126]
+
+After   the   ﬁrst   year   of   data   collection,   the   LHC   experimental   collaborations   started   to   release   their
+preliminary   results   concerning   searches   for   new   physics   beyond   the   Standard   Model   in   proton-proton
+collisions.[127][128][129][130] No evidence of new particles was detected in the 2010 data. As a result, bounds
+were set on the allowed parameter space of various extensions of the Standard Model, such as models with
+large extra dimensions, constrained versions of the Minimal Supersymmetric Standard Model, and others.
+[131][132][133]
+
+On 24 May 2011, it was reported that quark–gluon plasma (the densest matter thought to exist besides black
+holes) had been created in the LHC.[114]
+
+Between   July   and   August   2011,   results   of   searches   for   the   Higgs
+boson and for exotic particles, based on the data collected during the
+ﬁrst   half   of   the   2011   run,   were   presented   in   conferences   in
+Grenoble[134]   and   Mumbai.[135]   In   the   latter   conference,   it   was
+reported that, despite hints of a Higgs signal in earlier data, ATLAS
+and CMS exclude with 95% conﬁdence level (using the CLs method)
+the existence of a Higgs boson with the properties predicted by the
+Standard Model over most of the mass region between 145 and 466
+GeV.[136] The searches for new particles did not yield signals either,
+allowing   to   further   constrain   the   parameter   space   of   various
+extensions   of   the   Standard   Model,   including   its   supersymmetric
+extensions.[137][138]
+
+A Feynman diagram of one way
+the Higgs boson may be
+produced at the LHC. Here, two
+quarks each emit a W or Z
+boson, which combine to make
+a neutral Higgs.
+
+On   13   December   2011,   CERN   reported   that   the   Standard   Model
+Higgs boson, if it exists, is most likely to have a mass constrained to
+the range 115–130 GeV. Both the CMS and ATLAS detectors have
+also   shown   intensity   peaks   in   the   124–125   GeV   range,   consistent   with   either   background   noise   or   the
+observation of the Higgs boson.[139]
+
+On   22   December   2011,   it   was   reported   that   a   new   composite   particle   had   been   observed,   the   χb   (3P)
+bottomonium state.[117]
+
+On 4 July 2012, both the CMS and ATLAS teams announced the discovery of a boson in the mass region
+around 125–126 GeV, with a statistical signiﬁcance at the level of 5 sigma each. This meets the formal level
+required to announce a new particle. The observed properties were consistent with the Higgs boson, but
+scientists were cautious as to whether it is formally identiﬁed as actually being the Higgs boson, pending
+
+13 of 29
+
+3/3/21, 19:57
+
+
