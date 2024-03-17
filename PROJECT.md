@@ -33,7 +33,7 @@ print(j.output)
 - [setup.py](setup.py)
 - [PROJECT.md](PROJECT.md)
 - [CV.pdf](CV.pdf)
-- [hello_world_ganga.py](./GSoC/src/code-files/hello_world/hello_world_ganga.py)
+- [hello_world_ganga.py](./GSoC/src/codefiles/hello_world/hello_world_ganga.py)
 
 # Task 2 - Splitting a PDF file into individual pages and counting the number of occurrences of the word "it" in the text of the PDF file
 
@@ -42,7 +42,7 @@ print(j.output)
 Now, making a new folder task within the src folder to keep the code files for this task.
 
 ```bash
-mkdir ./GSoC/src/code-files/count-it
+mkdir ./GSoC/src/codefiles/countit
 ```
 
 We recognise 3 crucial substeps for the task
@@ -61,7 +61,7 @@ and we can read the individial pages of the PDF file using the following import.
 from pdfminer.high_level import extract_text
 ```
 
-The script used is located at [read_pdf_and_split.py](./GSoC/src/code-files/count-it/read_pdf_and_split.py)
+The script used is located at [read_pdf_and_split.py](./GSoC/src/codefiles/countit/read_pdf_and_split.py)
 
 the usage is 
 
@@ -100,7 +100,7 @@ This script is designed to split a PDF file into individual pages, save each pag
 
 ##### UML Activity Diagram 
 
-[![UML Activity Diagram](./GSoC/src/code-files/count-it/read_and_split_pdf_Uml_Activity.svg)](https://www.plantuml.com/plantuml/uml/NP7FJiCm3CRlUGeVkmCym3Wmn1-90r854dUhSLUBD8aS5pQU7YTJjOfJ4lldpv-TGr4KNURWsiMvVOzI28OqpnZzJU18W79SPefQxXoFq7rYO7yDtkz09uhGdQdi7C3-KGYL82sQ5mNFGeCcEOFLngH09ovLoiZNoCgczaiGB0XZahKiequNw9tGG__q0YC7gX6XR0tiOibUqa2b0E4mDIZZiK409GUkLEC-y9jQ3h1KReC07f7Z2ZwVL71GK3gP7qdpHd7LQJbDSAjshgu0AFfDq_s3zuriH9kdrjGvhqF0prIJtLkIYptRfgjjIBPxIUC_fLAbCWzVzhuOe508kfXQUIyS5PPIv-LOL9P1EKNRftdaqTbdf-mEzgW__mS0)
+[![UML Activity Diagram](./GSoC/src/codefiles/countit/read_and_split_pdf_Uml_Activity.svg)](https://www.plantuml.com/plantuml/uml/NP7FJiCm3CRlUGeVkmCym3Wmn1-90r854dUhSLUBD8aS5pQU7YTJjOfJ4lldpv-TGr4KNURWsiMvVOzI28OqpnZzJU18W79SPefQxXoFq7rYO7yDtkz09uhGdQdi7C3-KGYL82sQ5mNFGeCcEOFLngH09ovLoiZNoCgczaiGB0XZahKiequNw9tGG__q0YC7gX6XR0tiOibUqa2b0E4mDIZZiK409GUkLEC-y9jQ3h1KReC07f7Z2ZwVL71GK3gP7qdpHd7LQJbDSAjshgu0AFfDq_s3zuriH9kdrjGvhqF0prIJtLkIYptRfgjjIBPxIUC_fLAbCWzVzhuOe508kfXQUIyS5PPIv-LOL9P1EKNRftdaqTbdf-mEzgW__mS0)
 
 ##### Conclusion 
 
@@ -135,7 +135,7 @@ import re
 re.findall(regex, text, re.IGNORECASE)
 ```
 
-The script used is located at [count_it.py](./GSoC/src/code-files/count-it/count_it.py)
+The script used is located at [count_it.py](./GSoC/src/codefiles/countit/count_it.py)
 
 the usage is 
 
@@ -171,14 +171,14 @@ This script is an example of how to perform a specific word count in text proces
 
 #### UML Activity Diageam
 
-[![count_it_UML_Activity](GSoC\src\code-files\count-it\count_it_UML_Activity.svg)](https://www.plantuml.com/plantuml/uml/LP11QiGm34NtFeN8AhFe1P95fym1EdJJjUieYI2MWYL3U_ig3YLq9_p_VpnyLul5Qjv2Eq8Odh4eGfAS8qyl6p52B4lDoAPZe1dwxY6bO3BWch-mWCnNuxMxWQt8qF-WtWB0yAPA2mFnNWqS2LBjE6VQ4FPegrDnKuIUfGsUXTYWQbpGLsgb9YDXhm6eoHwG9vhTz7t7FwxXzqaSm_21SJhfITYGpTyUKfqfALKtvuHwI7TatNXYBgc6-2naFcyZa__XwNU5oTNa24AJkxlTyPs_)
+[![count_it_UML_Activity](GSoC\src\codefiles\countit\count_it_UML_Activity.svg)](https://www.plantuml.com/plantuml/uml/LP11QiGm34NtFeN8AhFe1P95fym1EdJJjUieYI2MWYL3U_ig3YLq9_p_VpnyLul5Qjv2Eq8Odh4eGfAS8qyl6p52B4lDoAPZe1dwxY6bO3BWch-mWCnNuxMxWQt8qF-WtWB0yAPA2mFnNWqS2LBjE6VQ4FPegrDnKuIUfGsUXTYWQbpGLsgb9YDXhm6eoHwG9vhTz7t7FwxXzqaSm_21SJhfITYGpTyUKfqfALKtvuHwI7TatNXYBgc6-2naFcyZa__XwNU5oTNa24AJkxlTyPs_)
 
 
 ### 2.1.3. Collate the results at the end
 
 We can use the `ArgSplitter` to create subjobs that each will count the occurrences for a single page and then use a merger to add up the number extracted from each page and place the total number into a file.
 
-The script used is located at [custom_merger.py](GSoC\src\code-files\count-it\custom_merger.py)
+The script used is located at [custom_merger.py](GSoC\src\codefiles\countit\custom_merger.py)
 
 the usage is 
 
@@ -215,7 +215,7 @@ The script is intended as a utility for merging numerical counts from multiple t
 
 ##### UML activity Diagram 
 
-[![custom_merger_UML_Activity](GSoC\src\code-files\count-it\custom_merger_UML_Activity.svg)](https://www.plantuml.com/plantuml/uml/LPAnpjim38HtFyMDoL2WipFq_uiEpTIYBn2e5kqGa4Y1ejgaJrzR1f8_6tLtkeyGz5OzcBUSXZuCmtZEHSrHxnLPOqjqMiLlDBCGCjb2c9jCpYghmJCEvmg_4kfaN1nqewavHOHTpe45nNInaBySDqbmk5Cz3i3uCrWbJ9fpaFWfROXWIyiaNayzO2mElnU2pfWvqILnTSngYFIxBGlBqfE_ACGUG0b-hPXDyqPRDQk-EopFYelVl5yy2pk7nFy8hXxIPTAsCHMVTz_9WXFq3naeJDSdvQLm2zUIs0S06Bl_Fk97eJs4816sRTa1fpts7YCUm2V_sOQm19OFdLz7V5-hUk4TT9keEAlqzoA9Znt6JjRcfVdbiS1VOwTN4ALAE8WUDwHh6TOMdeUXps_hOViT_m40)
+[![custom_merger_UML_Activity](GSoC\src\codefiles\countit\custom_merger_UML_Activity.svg)](https://www.plantuml.com/plantuml/uml/LPAnpjim38HtFyMDoL2WipFq_uiEpTIYBn2e5kqGa4Y1ejgaJrzR1f8_6tLtkeyGz5OzcBUSXZuCmtZEHSrHxnLPOqjqMiLlDBCGCjb2c9jCpYghmJCEvmg_4kfaN1nqewavHOHTpe45nNInaBySDqbmk5Cz3i3uCrWbJ9fpaFWfROXWIyiaNayzO2mElnU2pfWvqILnTSngYFIxBGlBqfE_ACGUG0b-hPXDyqPRDQk-EopFYelVl5yy2pk7nFy8hXxIPTAsCHMVTz_9WXFq3naeJDSdvQLm2zUIs0S06Bl_Fk97eJs4816sRTa1fpts7YCUm2V_sOQm19OFdLz7V5-hUk4TT9keEAlqzoA9Znt6JjRcfVdbiS1VOwTN4ALAE8WUDwHh6TOMdeUXps_hOViT_m40)
 
 ### 2.1.4. Use a Ganga Workflow to connect the subjobs
 
@@ -225,7 +225,7 @@ My Approach to this task changed from start to finish
 
 I set out to implement the following steps as per the UML Sequence diagram below : 
 
-[![Intended UML Sequence Diagram](./GSoC/src/code-files/count-it/intended_Orchestrator_UML_Sequence.svg)](https://www.plantuml.com/plantuml/uml/dPN1RjGm48RlVefHxds17b0bO96GK2iYRfNGh3Fi6ZbsP4zAz-rnR3RZ5Gv1FKuy_s_Fzzkx3v4ny3nQDM5Weys4Zk5Rf73puJ7eCqKEo3vyxtKm4z-iVq9tGaME3L-WwoTh63xxOmSO8LUfM9VV-pb9-lduqnzZRibV_dnOsxvGE55ORKgv-0p8UCH8q1sC9UWlaMdCFKjTIgMM6U3kNUleS0yVNqdFJ4gXPlE2JCqHMzfacQU5-sM4qJ2iuufPuL7wak2AG3QMrXNFsfG4CaYIV2KSuEd3GJJLd5NdNRrJqYK9_5W8QU-O7CFc5aMM1SQnXmbF59yTkW4YlX0mlNAsYcgWrYd4MF08bvJlE5bY6aGkWrynjRFQzoci_pEhcxktcLTz7oMpn2QH2MWjMP7MlQek_eBy5Boc685GdmNfiojdwWntuBMUGo2N-fff_zE_NwBIsOnzzYwOTbm4qYsTDkrQkvjSs-_jwSbFmcPqfQNzrcHHILlpjHMAvSRllxfwqrfwVNZRknLbqSJyzfBIeGK_ypHpEx_Qhc8aSDgaLzLER3jEEvarQ9QHof3xDBSETLXCoetQmDBGPR_yJv3kqDd_WiV2jNPeo9Hw83VCe_qD)
+[![Intended UML Sequence Diagram](./GSoC/src/codefiles/countit/intended_Orchestrator_UML_Sequence.svg)](https://www.plantuml.com/plantuml/uml/dPN1RjGm48RlVefHxds17b0bO96GK2iYRfNGh3Fi6ZbsP4zAz-rnR3RZ5Gv1FKuy_s_Fzzkx3v4ny3nQDM5Weys4Zk5Rf73puJ7eCqKEo3vyxtKm4z-iVq9tGaME3L-WwoTh63xxOmSO8LUfM9VV-pb9-lduqnzZRibV_dnOsxvGE55ORKgv-0p8UCH8q1sC9UWlaMdCFKjTIgMM6U3kNUleS0yVNqdFJ4gXPlE2JCqHMzfacQU5-sM4qJ2iuufPuL7wak2AG3QMrXNFsfG4CaYIV2KSuEd3GJJLd5NdNRrJqYK9_5W8QU-O7CFc5aMM1SQnXmbF59yTkW4YlX0mlNAsYcgWrYd4MF08bvJlE5bY6aGkWrynjRFQzoci_pEhcxktcLTz7oMpn2QH2MWjMP7MlQek_eBy5Boc685GdmNfiojdwWntuBMUGo2N-fff_zE_NwBIsOnzzYwOTbm4qYsTDkrQkvjSs-_jwSbFmcPqfQNzrcHHILlpjHMAvSRllxfwqrfwVNZRknLbqSJyzfBIeGK_ypHpEx_Qhc8aSDgaLzLER3jEEvarQ9QHof3xDBSETLXCoetQmDBGPR_yJv3kqDd_WiV2jNPeo9Hw83VCe_qD)
 
 #### 2.1.4.1. Intended Implementation
 
@@ -275,7 +275,7 @@ This workflow showcases a systematic approach to processing documents, leveragin
 
 However, the final file was not implemented exactly as per the UML diagram. Due to having troble with file copying; the code needed to slightly changed in design and file I/O was done differently.
 
-usage is : ( from within the folder "count-it" )
+usage is : ( from within the folder "countit" )
 
 ```bash
 ganga orchestrator2.py
@@ -322,13 +322,13 @@ The script sets up and submits three types of jobs using Ganga:
 #### Conclusion
 `orchestrator2.py` showcases the use of Ganga for distributed computing tasks, automating complex workflows involving file processing and job management in Python.
 
-. The final file is located at [orchestrator2.py](./GSoC/src/code-files/count-it/orchestrator2.py)
+. The final file is located at [orchestrator2.py](./GSoC/src/codefiles/countit/orchestrator2.py)
 
 
 
 ### 2.1.5. Results 
 
-The results of the task are located at [total_word_count.txt](./GSoC/src/code-files/count-it/total_word_count.txt)
+The results of the task are located at [total_word_count.txt](./GSoC/src/codefiles/countit/total_word_count.txt)
 
 The System found 31 occurances of the word 'it', case insensitive
 
@@ -336,7 +336,47 @@ The System found 31 occurances of the word 'it', case insensitive
 
 ### Unit Test 1 - read_pdf_and_split.py
 
+#### Unit Test Explanation
 
+This unit test is designed to verify the functionality of a script (`read_pdf_and_split.py`) that splits a PDF into individual pages, extracts text from each page, saves both the individual PDF pages and their corresponding text in separate files, and finally records the paths of these text files in a pickle file.
+
+##### Setup
+
+- **Required Packages**: The test ensures that necessary packages (`pdfinfo`, `PyPDF2`, `pdfminer.six`) are installed. If they are not found, the test attempts to install them using `pip`.
+- **Test PDF Path**: Specifies the path to the PDF file used for testing.
+- **Output Folder**: Designates an output directory for the generated files.
+- **Debug Mode**: Indicates whether the script should run in debug mode.
+
+##### Class Methods
+
+###### `setUpClass` Method
+
+- **Directory Preparation**: Ensures the output directory is clean by deleting it if it exists, then recreates it.
+- **Page Count**: Counts the number of pages in the test PDF using `PdfReader` from `PyPDF2`.
+
+###### `test_split_pdf_pages` Method
+
+- **Script Execution**: Runs the script as a standalone process using `os.system`, passing the path to the test PDF, the output directory, and the debug mode flag.
+- **File Generation Verification**: After the script runs, it checks the output directory for the expected number of generated files. It expects two files per PDF page (a PDF and a TXT file) plus one additional pickle file.
+- **Pickle File Verification**: Confirms the existence of the pickle file and validates its contents, ensuring it contains paths corresponding to the expected number of pages.
+
+###### `tearDownClass` Method
+
+- **Clean Up**: Removes the output folder and its contents, cleaning up after the tests.
+
+##### Execution
+
+The unit test is executed automatically if the script is run directly, calling `unittest.main()` to run the test suite defined in the class.
+
+##### Failure Explanation
+
+A failure in this test, as seen in the provided example, indicates that the script did not generate any files in the output directory. This discrepancy between the expected and actual results could be due to various issues such as a malfunction within the script, incorrect paths, or permission issues that prevent file creation.
+
+##### Conclusion
+
+Unit Test was passed with test PDF and output folder, and the script successfully generated the expected files and pickle file.
+
+[![Unit Test 1 - read_pdf_and_split.py](test/test_read_and_split_pdfpy_filedirectory/test_file_UML_activity.svg)](https://www.plantuml.com/plantuml/uml/LPAnpjim38HtFyMDoL2WipFq_uiEpTIYBn2e5kqGa4Y1ejgaJrzR1f8_6tLtkeyGz5OzcBUSXZuCmtZEHSrHxnLPOqjqMiLlDBCGCjb2c9jCpYghmJCEvmg_4kfaN1nqewavHOHTpe45nNInaBySDqbmk5Cz3i3uCrWbJ9fpaFWfROXWIyiaNayzO2mElnU2pfWvqILnTSngYFIxBGlBqfE_ACGUG0b-hPXDyqPRDQk-EopFYelVl5yy2pk7nFy8hXxIPTAsCHMVTz_9WXFq3naeJDSdvQLm2zUIs0S06Bl_Fk97eJs4816sRTa1fpts7YCUm2V_sOQm19OFdLz7V5-hUk4TT9keEAlqzoA9Znt6JjRcfVdbiS1VOwTN4ALAE8WUDwHh6TOMdeUXps_hOViT_m40)
 
 ### Unit Test 2 - count_it.py
 
