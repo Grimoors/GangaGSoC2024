@@ -34,7 +34,7 @@ class TestSplitPdfPages(unittest.TestCase):
 
     def test_split_pdf_pages(self):
         # Run the module as standalone
-        os.system(f'python3 ../GSoC/src/codefiles/countit/read_pdf_and_splIt.py {self.pdf_path} {self.output_folder} {int(self.debug_mode)}')
+        os.system(f'python3 GSoC/src/codefiles/countit/read_pdf_and_splIt.py {self.pdf_path} {self.output_folder} {int(self.debug_mode)}')
         
 
         # Check the number of files generated (PDF + TXT for each page)
