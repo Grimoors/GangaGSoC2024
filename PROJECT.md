@@ -380,6 +380,92 @@ Unit Test was passed with test PDF and output folder, and the script successfull
 
 ### Unit Test 2 - count_it.py
 
+#### Explanation of Unit Test for `count_it.py`
+
+This unit test module is designed to test the functionality of a script named `count_it.py`. The script is supposed to count the occurrences of the word "it" in a text file, treating "it" as a whole word and doing so case-insensitively.
+
+##### Overview
+
+The test class `TestCountIt` is derived from `unittest.TestCase`, making it a unit test case that can be automatically discovered and run by Python's unittest framework.
+
+##### Class Methods
+
+###### `setUpClass(cls)`
+
+- This class method is run once before executing any tests. It's used for setup tasks applicable to all tests in the class.
+- It creates a sample text file named `test_input.txt` containing specific sentences designed to test the script's ability to count "it" correctly. The content of this file includes variations of "it" and "IT" within different contexts.
+- It also defines `cls.expected_count`, the expected number of times "it" appears in the text, which is 4 in this case.
+
+###### `test_count_it_in_file(self)`
+
+- This method tests the core functionality of the `count_it.py` script.
+- Instead of directly calling a function from the script (commented out), it runs the script as a standalone program using `os.system()`. This approach tests the script in an environment similar to how an end user would run it.
+- It passes the path to the sample text file as an argument to the script and specifies an output file where the script will write the count of "it".
+- After the script runs, the test reads the output file, converts the count to an integer, and compares it to the expected count (`cls.expected_count`). If the actual count matches the expected count, the test passes; otherwise, it fails, indicating a problem with the script's functionality.
+
+###### `tearDownClass(cls)`
+
+- After all tests have been run, this class method is executed to clean up any resources used during testing.
+- It removes the sample text file created during setup, ensuring that the test environment is clean and no unnecessary files are left over.
+
+##### Running the Test
+
+- The test can be run by executing the script with a Python interpreter. Python's unittest framework automatically discovers and runs tests defined in the script.
+- The test output will indicate whether the test passed or failed, providing feedback on the functionality of the `count_it.py` script.
+
+This unit test ensures that `count_it.py` accurately counts occurrences of "it" in a given text file, providing a simple yet effective way to verify the script's correctness.
+
+#### Conclusion
+
+The unit test was successful, confirming that the script correctly counted the occurrences of "it" in the sample text file. The test output indicated that the actual count matched the expected count, validating the script's functionality.
+
+[![Unit Test 2 - count_it.py](test/test_countitpy_filedirectory/test_file_UML_activity.svg)](https://www.plantuml.com/plantuml/svg/TLB1JiCm3BttAtpSBdm0FJ2fue342H1NPAMlcwKqYM9dR23-dIuLwoQqInldsS_lsTceSROo-gOUcZHzn2G6UWhJdxrySGs_6oAY-ow33MHG8mcf60tYKR5FiHqfZycVy8ErpKzpmVTuW2kNL2yba8ibs8VONJgIkYp9sWhAGAlN6XFETLgSW-fG_CEQR8T0goDqNGjcHd1_0YWM-vFMBd0NmnxPvgPaaIGOjiXp2ho2LY5Uy3t7BI7dc1SIjPZczD3BSEtmdRtqrzEAumI3s5bXFpTUPeL3WZFqy_rYlAlwHZQtWzwm-WOrIgmAlIc_vWmiNjjRaZiF3YMTLu8nxlzjjowo6jzC5AUtyWi0)
+
+
 ### Unit Test 3 - custom_merger.py
+
+#### Unit Test Explanation for `custom_merger.py`
+
+This unit test is designed to verify the functionality of the `custom_merger.py` script, which is supposed to read a list of text files containing numerical counts, sum these counts, and write the total count to an output file.
+
+##### Overview
+
+The test suite consists of a single test case (`TestMerge`) that uses Python's `unittest` framework. The test case includes a setup class method, a test method, and a teardown class method.
+
+###### Setup Method (`setUpClass`)
+
+The `setUpClass` method is executed once before any tests are run. It performs the following steps:
+
+1. **Create Temporary Directory**: A temporary directory is created to hold test files. This ensures the test environment is isolated and does not interfere with the actual filesystem.
+   
+2. **Generate Sample Count Files**: Three sample text files are created within the temporary directory. Each file contains a numerical count (1, 2, and 3, respectively). The paths to these files are stored in a class variable for later reference.
+   
+3. **Create File List**: A text file listing the paths of all sample count files is created. This file mimics the input list that the `custom_merger.py` script is expected to process.
+
+###### Test Method (`test_merge`)
+
+The `test_merge` method executes the actual test:
+
+1. **Define Output File Path**: The path for the output file (where the total count will be written) is defined within the temporary directory.
+   
+2. **Execute Script**: The `custom_merger.py` script is executed as a standalone process via `os.system`. It is passed the path to the file list created during setup and the path to the output file.
+   
+3. **Verify Output**: After execution, the test reads the output file, parses the total count, and compares it against the expected total (6, in this case). If the actual total does not match the expected total, the test fails.
+
+###### Teardown Method (`tearDownClass`)
+
+The `tearDownClass` method is executed once after all tests have run. It cleans up by removing the temporary directory and all files created during setup. This ensures that no artifacts are left over after the test finishes.
+
+##### Running the Test
+
+To run the test, ensure you have the `unittest` module and the necessary dependencies installed, then execute the test script. If the test passes, it means the `custom_merger.py` script correctly processes the file list, calculates the total count, and writes it to the specified output file. If the test fails, it indicates a problem with the script's functionality.
+
+This unit test provides a simple yet effective way to verify the correctness of the `custom_merger.py` script, ensuring it accurately aggregates counts from multiple files.
+
+#### Conclusion
+
+The unit test was successful, confirming that the `custom_merger.py` script correctly processed the file list, calculated the total count, and wrote it to the output file. The test output indicated that the actual total matched the expected total, validating the script's functionality.
+
+[![Unit Test 3 - custom_merger.py](test/test_custom_mergerpy_filedirectory/test_file_UML_activity.svg)](https://www.plantuml.com/plantuml/uml/RL5BQiCm4Dtx5BDqDZr0Go0bdsuA3KakCDZFZK2Mn6ZKn9JUlP95mPHkHcBcVVH6swWicaRRp9Uc2RaQDTxH1Pe2VJL4ppi1A-YACNXXcMXl19rwcTPb_0e7AO0BZy62TZuvfQEnYEi5lJJepKIbkz4R1TPRddylFQ-8MYtt68m3lISDIIlrb0cptk61BXMxJanGQaV81vx2jAh2Gm7RuiEk9ryLmY_v3EwNigLf1cfVEariIRtckjdGuH7GAVhQMP7UuAXLILXbHXQQtthY66jAs0Xg1yx74d1aO-lSzMRucvQbztTN4vyn-iz_bppdO6ldP7LbKNrejbcpVDqF)
 
 ### Integration Test 1 - orchestrator2.py 
