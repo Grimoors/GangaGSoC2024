@@ -61,7 +61,7 @@ and we can read the individial pages of the PDF file using the following import.
 from pdfminer.high_level import extract_text
 ```
 
-The script used is located at [read_pdf_and_split.py](./GSoC/src/codefiles/countit/read_pdf_and_split.py)
+The script used is located at [read_pdf_and_split.py](./GSoC/src/codefiles/countit/read_pdf_and_splIt.py)
 
 the usage is 
 
@@ -171,14 +171,14 @@ This script is an example of how to perform a specific word count in text proces
 
 #### UML Activity Diageam
 
-[![count_it_UML_Activity](GSoC\src\codefiles\countit\count_it_UML_Activity.svg)](https://www.plantuml.com/plantuml/uml/LP11QiGm34NtFeN8AhFe1P95fym1EdJJjUieYI2MWYL3U_ig3YLq9_p_VpnyLul5Qjv2Eq8Odh4eGfAS8qyl6p52B4lDoAPZe1dwxY6bO3BWch-mWCnNuxMxWQt8qF-WtWB0yAPA2mFnNWqS2LBjE6VQ4FPegrDnKuIUfGsUXTYWQbpGLsgb9YDXhm6eoHwG9vhTz7t7FwxXzqaSm_21SJhfITYGpTyUKfqfALKtvuHwI7TatNXYBgc6-2naFcyZa__XwNU5oTNa24AJkxlTyPs_)
+[![count_it_UML_Activity](GSoC/src/codefiles/countit/count_it_UML_Activity.svg)](https://www.plantuml.com/plantuml/uml/LP11QiGm34NtFeN8AhFe1P95fym1EdJJjUieYI2MWYL3U_ig3YLq9_p_VpnyLul5Qjv2Eq8Odh4eGfAS8qyl6p52B4lDoAPZe1dwxY6bO3BWch-mWCnNuxMxWQt8qF-WtWB0yAPA2mFnNWqS2LBjE6VQ4FPegrDnKuIUfGsUXTYWQbpGLsgb9YDXhm6eoHwG9vhTz7t7FwxXzqaSm_21SJhfITYGpTyUKfqfALKtvuHwI7TatNXYBgc6-2naFcyZa__XwNU5oTNa24AJkxlTyPs_)
 
 
 ### 2.1.3. Collate the results at the end
 
 We can use the `ArgSplitter` to create subjobs that each will count the occurrences for a single page and then use a merger to add up the number extracted from each page and place the total number into a file.
 
-The script used is located at [custom_merger.py](GSoC\src\codefiles\countit\custom_merger.py)
+The script used is located at [custom_merger.py](GSoC/src/codefiles/countit/custom_merger.py)
 
 the usage is 
 
@@ -215,7 +215,7 @@ The script is intended as a utility for merging numerical counts from multiple t
 
 ##### UML activity Diagram 
 
-[![custom_merger_UML_Activity](GSoC\src\codefiles\countit\custom_merger_UML_Activity.svg)](https://www.plantuml.com/plantuml/uml/LPAnpjim38HtFyMDoL2WipFq_uiEpTIYBn2e5kqGa4Y1ejgaJrzR1f8_6tLtkeyGz5OzcBUSXZuCmtZEHSrHxnLPOqjqMiLlDBCGCjb2c9jCpYghmJCEvmg_4kfaN1nqewavHOHTpe45nNInaBySDqbmk5Cz3i3uCrWbJ9fpaFWfROXWIyiaNayzO2mElnU2pfWvqILnTSngYFIxBGlBqfE_ACGUG0b-hPXDyqPRDQk-EopFYelVl5yy2pk7nFy8hXxIPTAsCHMVTz_9WXFq3naeJDSdvQLm2zUIs0S06Bl_Fk97eJs4816sRTa1fpts7YCUm2V_sOQm19OFdLz7V5-hUk4TT9keEAlqzoA9Znt6JjRcfVdbiS1VOwTN4ALAE8WUDwHh6TOMdeUXps_hOViT_m40)
+[![custom_merger_UML_Activity](GSoC/src/codefiles/countit/custom_merger_UML_Activity.svg)](https://www.plantuml.com/plantuml/uml/LPAnpjim38HtFyMDoL2WipFq_uiEpTIYBn2e5kqGa4Y1ejgaJrzR1f8_6tLtkeyGz5OzcBUSXZuCmtZEHSrHxnLPOqjqMiLlDBCGCjb2c9jCpYghmJCEvmg_4kfaN1nqewavHOHTpe45nNInaBySDqbmk5Cz3i3uCrWbJ9fpaFWfROXWIyiaNayzO2mElnU2pfWvqILnTSngYFIxBGlBqfE_ACGUG0b-hPXDyqPRDQk-EopFYelVl5yy2pk7nFy8hXxIPTAsCHMVTz_9WXFq3naeJDSdvQLm2zUIs0S06Bl_Fk97eJs4816sRTa1fpts7YCUm2V_sOQm19OFdLz7V5-hUk4TT9keEAlqzoA9Znt6JjRcfVdbiS1VOwTN4ALAE8WUDwHh6TOMdeUXps_hOViT_m40)
 
 ### 2.1.4. Use a Ganga Workflow to connect the subjobs
 
@@ -556,4 +556,14 @@ This test showcases a novel approach to leveraging AI for code generation, speci
 
 #### UML Activity Diagram
 
-[![Ganga Workflow Test with OpenAI Codex](test\test_llm_ganga_UML_activity.svg)](https://www.plantuml.com/plantuml/uml/PPD1RnD138NlyojCJ-a5LHoxgjGeH2Meg542ukpkUfEXi_RWyMuJ4FyTTgP9qt2TFB_t-JbxcmpL-YwuTxQbZY06zEoSUGi4qzhyu6qF7prk53jeHU4EUOFmNVIf3V8CNoaPF7lRmaCadYvW9WtjdCl6xdh1tZm6_ukASiw3L-6Es2eNKSsR5uQBDHbyYp0J7aWJviViUd__vG9-Em20wvbYQp1TBc15F_lHRedx8DXKvVS5rw5l29OgNRGJsi_ocBdWZfWqkrVkZpi5c4dNzUnhD3e6m-1nZ3i2h8cRD_acRzOk7Bw5oOfI54u4QqFh4zpSm8UhgqkmBJ5CzfGkipIxpdUcMDi1Zfh2sgfqSF0fpXGImOJbPFWJSXC8vggYrV4vcSGomOrlprQTxwZkBTSK9HtYF9UoJjecjF5iNHH57Vy5IhM9xgkNDd2WSsYJFF2VTjKp_DCVP9XUBrETumqO-fAS31vwgwMZLwejrK-GLyZoqcz9OJ42zPkjbIAAGyIKA87I1hK9b198Ezu1NaG5v8Sy0XrTfQI-FtIOhGl04bFAuzbyXedo0hbnTqlSZ5_JNm00)
+[![Ganga Workflow Test with OpenAI Codex](test/test_llm_ganga_UML_activity.svg)](https://www.plantuml.com/plantuml/uml/PPD1RnD138NlyojCJ-a5LHoxgjGeH2Meg542ukpkUfEXi_RWyMuJ4FyTTgP9qt2TFB_t-JbxcmpL-YwuTxQbZY06zEoSUGi4qzhyu6qF7prk53jeHU4EUOFmNVIf3V8CNoaPF7lRmaCadYvW9WtjdCl6xdh1tZm6_ukASiw3L-6Es2eNKSsR5uQBDHbyYp0J7aWJviViUd__vG9-Em20wvbYQp1TBc15F_lHRedx8DXKvVS5rw5l29OgNRGJsi_ocBdWZfWqkrVkZpi5c4dNzUnhD3e6m-1nZ3i2h8cRD_acRzOk7Bw5oOfI54u4QqFh4zpSm8UhgqkmBJ5CzfGkipIxpdUcMDi1Zfh2sgfqSF0fpXGImOJbPFWJSXC8vggYrV4vcSGomOrlprQTxwZkBTSK9HtYF9UoJjecjF5iNHH57Vy5IhM9xgkNDd2WSsYJFF2VTjKp_DCVP9XUBrETumqO-fAS31vwgwMZLwejrK-GLyZoqcz9OJ42zPkjbIAAGyIKA87I1hK9b198Ezu1NaG5v8Sy0XrTfQI-FtIOhGl04bFAuzbyXedo0hbnTqlSZ5_JNm00)
+
+## 3.4. Some files that were Implemented in Tests and Task 3
+
+| FileName         | Filepath                                  |  Remote URL  |
+|------------------|-------------------------------------------| ---------------|
+| query_llm.py     | GSoC/src/codefiles/llm_ganga/query_llm.py |  https://github.com/Grimoors/GangaGSoC2024/blob/f3ee9667b3f2389451262e6c061957ffa4b2682a/GSoC/src/codefiles/llm_ganga/query_llm.py |
+| test_llmganga.py | test/test_llmganga.py                     |  https://github.com/Grimoors/GangaGSoC2024/blob/ca2925a4a88abddb96b4eb4d06ad3f352833fca0/test/test_llmganga.py  |
+| test_countit.py | test/test_countit.py        | https://github.com/Grimoors/GangaGSoC2024/blob/fe75b93f5cf97abc342aef213860220bf540bc2d/test/test_countit.py  |
+| test_custom_merger.py | test/test_custom_merger.py | https://github.com/Grimoors/GangaGSoC2024/blob/f432f23ade010d621b17bf48e75ffad398777a4f/test/test_custom_merger.py |
+| test_read_and_split_pdf.py | test/test_read_and_split_pdf.py | https://github.com/Grimoors/GangaGSoC2024/blob/46a19fe616d5a66974c803469e8758a961c17386/test/test_read_and_split_pdf.py |
